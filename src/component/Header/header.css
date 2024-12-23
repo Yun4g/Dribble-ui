@@ -1,0 +1,168 @@
+@font-face {
+    font-family: Tonye;
+    src: url('src\assets\fonts\MonaSans-VariableFont_wdth,wght.ttf');
+    font-weight: 500;
+   }
+  
+  
+  header{
+    width: 100%;
+    height:14vh;
+  }
+  
+   header nav{
+    display: flex;
+    justify-content: space-between;
+   height: 100%;
+    width: 100%;
+  
+  }
+  
+  .firstdiv{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  
+    width: 70%;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 2rem;
+    padding: 1em;
+  }
+  
+  .linkAction{
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    width: 75%;
+    transition: all .2s ease-in-out;
+  }
+  
+  
+  .linkAction button{
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .4s ease-in-out;
+  }
+
+  .linkAction a{
+    transition: all .4s ease-in-out;
+  }
+  .linkAction button:hover{
+    color: gray;
+  }
+  
+  .linkAction a:hover{
+    color: gray;
+  }
+  .secondDiv{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 50px;
+    gap: 30px;
+    width: 30%;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  
+  .secondDiv a{
+    font-size: 17px;
+    font-weight: 700;
+  }
+  
+  
+  .secondDiv :nth-child(2){
+     color: white;
+     background-color: black;
+     padding: 11px 24px;
+     border-radius: 30px;
+  }
+  
+  
+  /* .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  } */
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  
+  .chevron{
+    margin-left: 5px;
+  }
+
+
+
+  
+@media screen and (max-width: 1203px) {
+      
+  .linkAction{
+    display: none;
+  }     
+  
+  .Hamburger{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:5px ;
+    height: 2rem;
+    width: 2.4rem;
+  }
+
+  .line1{
+    width: 100%;
+    background-color: black;
+    height: 3px;
+ }
+
+ 
+ .line2{
+  width: 70%;
+  background-color: black;
+  height: 3px;
+}
+
+
+.line3{
+  width: 50%;
+  background-color: black;
+  height: 3px;
+}
+}
+
+@media screen and (max-width: 787px) {
+  .signIn{
+      display: none;
+  }
+}

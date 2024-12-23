@@ -1,0 +1,173 @@
+
+.cardsoverallContainer{
+    margin-top: 6rem;
+    display: block;
+}
+
+.parentDiv{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 0px 4.3em;
+}
+
+.popularButton{
+    width: 9em;
+    height: 3em;
+    border: 2px solid rgb(245, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    margin-top: 0.8em;
+}
+
+
+.filterButton{
+    width: 7em;
+    height: 4em;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   
+ }
+ 
+.filterButton button{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     border: 2px solid rgb(219, 219, 219);
+     width: 100%;
+     height: 70%;
+     font-size: 16px;
+     font-weight:600 ;
+     
+}
+
+.popularButton button{
+    font-size: 16px;
+    font-weight:600 ;
+}
+.chevronCard{
+    margin-left: 1.4em;
+    
+}
+ .cardLinks{
+    padding: 2px 17px;
+    border-radius: 10px;
+    display: flex;
+    gap: 28px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    /* background-color:  #F3F3F6; */
+}
+
+.Discover{
+    background-color:  #F3F3F6;
+    padding: 7px 17px;
+    border-radius: 40px;
+}
+
+
+.cardContdisplay{
+    display: block;
+    width: 97%;
+    height: 17rem;
+    margin-bottom: 2rem;
+     
+ 
+}
+.cardDisplay{
+    display: block;
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cardData{
+    margin: 4.3em;
+}
+
+
+
+
+.cardDisplay img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.details{
+   display: flex ;
+   justify-content: space-between;
+   align-items: center;
+   height: 10%;
+   width: 100%;
+   padding-top:13px ;
+  
+
+}
+
+.CompanyDetails{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    gap: 7px;
+    overflow: hidden;
+
+    max-width: 14em;
+}
+.SocialLikes{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    gap: 7px;
+}
+
+.SocialLikes p{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    gap: 3px;
+   
+
+    span{
+        margin-top: 9px;
+    }
+}
+
+
+.companyDeatilsImages{
+    height: 23px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.companyDeatilsImages img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.status{
+    background-color:  #CCCCCC;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.grid{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 17px;
+    width: 100%;
+  
+}

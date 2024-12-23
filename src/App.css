@@ -1,0 +1,22 @@
+@font-face {
+  font-family: Tonye;
+  src: url('src\assets\fonts\MonaSans-VariableFont_wdth,wght.ttf');
+  font-weight: 500;
+ }
+#root {
+  max-width: 100%;
+  text-align: center;
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.chevron{
+  margin-left: 5px;
+}
